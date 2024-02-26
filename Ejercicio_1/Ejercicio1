@@ -31,3 +31,31 @@ docker run -d --name bbdd -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATA
 ```
 
 ![image-20240226181933638](./Ejercicio1.assets/image-20240226181933638.png)
+
+
+
+
+
+## Documentación 
+
+- Captura de pantalla y documento que desde el navegador muestre el fichero `index.html` .
+
+​	Muestro que ambos contenedores están activos.
+
+```bash
+docker ps
+```
+
+![image-20240226182140912](/home/cliente/snap/typora/86/.config/Typora/typora-user-images/image-20240226182140912.png)
+
+Index.html:
+
+<img src="./Ejercicio1.assets/image-20240226182318734.png" alt="image-20240226182318734" style="zoom:80%;" />
+
+```bash
+docker cp /home/cliente/Documentos/index.html web:/var/www/html/index.html
+```
+
+![image-20240226182421628](./Ejercicio1.assets/image-20240226182421628.png)
+
+<img src="./Ejercicio1.assets/image-20240226182524709.png" alt="image-20240226182524709" style="zoom:80%;" />
