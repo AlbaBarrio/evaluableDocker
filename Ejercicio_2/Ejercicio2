@@ -25,6 +25,13 @@ por ejemplo:
 
   <img src="./Ejercicio2.assets/image-20240226214723835.png" alt="image-20240226214723835" style="zoom:80%;" />
 
-- Muestra alguna operación con redes Docker
+  Un contenedor:
 
+  <img src="./Ejercicio2.assets/image-20240226215100107.png" alt="image-20240226215100107" style="zoom:80%;" />
+
+​	Borrar un contenedor:
+
+​	
+
+- Muestra alguna operación con redes Docker
 - Muestra alguna operación con volúmenes Docker
