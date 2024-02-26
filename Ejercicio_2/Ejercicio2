@@ -7,14 +7,24 @@
 Utiliza una imagen de 'Portainer' para gestionar Docker.
 
 ```bash
-docker run -d -p 8081:8081 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 ```
 
-<img src="./Ejercicio2.assets/image-20240226213419971.png" alt="image-20240226213419971"  />
+![image-20240226214056869](./Ejercicio2.assets/image-20240226214056869.png)
+
+Pruebo que funcione:
+
+<img src="./Ejercicio2.assets/image-20240226214140159.png" alt="image-20240226214140159" style="zoom:80%;" />
 
 Documenta la aplicación, su puesta en funcionamiento y realiza capturas de varias operaciones,
 por ejemplo:
 
 - Muestra contenedores activos, para un contenedor, borra un contenedor
+
+  Contenedores activos:
+
+  <img src="./Ejercicio2.assets/image-20240226214723835.png" alt="image-20240226214723835" style="zoom:80%;" />
+
 - Muestra alguna operación con redes Docker
+
 - Muestra alguna operación con volúmenes Docker
