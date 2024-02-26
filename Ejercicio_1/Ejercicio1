@@ -59,3 +59,19 @@ docker cp /home/cliente/Documentos/index.html web:/var/www/html/index.html
 ![image-20240226182421628](./Ejercicio1.assets/image-20240226182421628.png)
 
 <img src="./Ejercicio1.assets/image-20240226182524709.png" alt="image-20240226182524709" style="zoom:80%;" />
+
+
+
+- Captura de pantalla y documento que desde un navegador muestre la salida del script `mes.php` .
+
+​	mes.php:
+
+<img src="./Ejercicio1.assets/image-20240226182834176.png" alt="image-20240226182834176" style="zoom:80%;" />
+
+```bash
+docker cp /home/cliente/Documentos/mes.php web:/var/www/html/mes.php
+```
+
+![image-20240226182927540](./Ejercicio1.assets/image-20240226182927540.png)
+
+<img src="./Ejercicio1.assets/image-20240226183009791.png" alt="image-20240226183009791" style="zoom:80%;" />
