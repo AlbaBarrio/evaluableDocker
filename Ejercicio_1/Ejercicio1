@@ -85,3 +85,13 @@ docker ps -s
 ```
 
 ![image-20240226183433376](./Ejercicio1.assets/image-20240226183433376.png)
+
+
+
+- Captura de pantalla y documento donde desde un cliente de base de datos (instalado en tu ordenador, por ejemplo `dbeaver` ) se pueda observar que hemos podido conectarnos al servidor de base de datos con el usuario creado y que se ha creado la base de datos prueba ( `show databases` ). El acceso se debe realizar desde el ordenador que tenéis instalado docker, no hay que acceder desde dentro del contenedor, es decir, no usar `docker exec` .
+
+<img src="./Ejercicio1.assets/image-20240226183857034.png" alt="image-20240226183857034"  />
+
+Se ha generado la base de datos de prueba correctamente:
+
+<img src="./Ejercicio1.assets/image-20240226184021508.png" alt="image-20240226184021508"  />
