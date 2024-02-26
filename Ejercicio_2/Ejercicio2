@@ -37,6 +37,16 @@ por ejemplo:
 
 - Muestra alguna operación con redes Docker
 
-  
+  Muestro las redes:
+
+  <img src="./Ejercicio2.assets/image-20240226215624236.png" alt="image-20240226215624236" style="zoom:80%;" />
+
+  Muestro detalles de una red:
+
+  <img src="./Ejercicio2.assets/image-20240226215803466.png" alt="image-20240226215803466" style="zoom:80%;" />
+
+  Creo una red:
+
+  <img src="./Ejercicio2.assets/image-20240226215940795.png" alt="image-20240226215940795" style="zoom:80%;" />
 
 - Muestra alguna operación con volúmenes Docker
