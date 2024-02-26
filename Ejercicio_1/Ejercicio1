@@ -95,3 +95,15 @@ docker ps -s
 Se ha generado la base de datos de prueba correctamente:
 
 <img src="./Ejercicio1.assets/image-20240226184021508.png" alt="image-20240226184021508"  />
+
+
+
+- Captura de pantalla y documento donde se comprueba que no se puede borrar la imagen `mariadb` mientras el contenedor `bbdd` está creado.
+
+​	Intento eliminar la imagen `mariadb`:
+
+```bash
+docker rmi mariadb
+```
+
+![image-20240226184348569](./Ejercicio1.assets/image-20240226184348569.png)
