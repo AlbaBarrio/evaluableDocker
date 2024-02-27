@@ -13,3 +13,35 @@ docker run -d --name web -p 8000:80 php:7.4-apache
 ```
 
 ​	<img src="./Ejercicio5.assets/image-20240227205250616.png" alt="image-20240227205250616"  />
+
+- Coloca en el directorio raíz del servicio web ( /var/www/html ) un sitio web donde figure el nombre de los componentes del grupo - el sitio deberá tener al menos un archivo index.html y un archivo .css
+
+​	Creo un directorio para almacenar el sitio web:
+
+```bash
+sudo mkdir -p /var/www/html/sitio_alba_y_pelayo
+```
+
+​	![image-20240227210402732](./Ejercicio5.assets/image-20240227210402732.png)
+
+​	Acceder al repositorio:
+
+```bash
+cd /var/www/html/sitio_alba_y_pelayo/
+```
+
+​	![image-20240227211324836](./Ejercicio5.assets/image-20240227211324836.png)
+
+​	Creacion de ficheros:
+
+```bash
+sudo nano index.html
+```
+
+![image-20240227211700784](./Ejercicio5.assets/image-20240227211700784.png)
+
+```bash
+sudo nano index.css
+```
+
+​	![image-20240227211844897](./Ejercicio5.assets/image-20240227211844897.png)
