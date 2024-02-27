@@ -16,6 +16,8 @@ Pruebo que funcione:
 
 <img src="./Ejercicio2.assets/image-20240226214140159.png" alt="image-20240226214140159" style="zoom:80%;" />
 
+## Actividad portainer
+
 Documenta la aplicación, su puesta en funcionamiento y realiza capturas de varias operaciones,
 por ejemplo:
 
@@ -31,9 +33,7 @@ por ejemplo:
 
 ​	Borrar un contenedor:
 
-​	<img src="./Ejercicio2.assets/image-20240226215315489.png" alt="image-20240226215315489" style="zoom:80%;" />
-
-​	<img src="./Ejercicio2.assets/image-20240226215349496.png" alt="image-20240226215349496" style="zoom:80%;" />
+<img src="./Ejercicio2.assets/image-20240226215315489.png" alt="image-20240226215315489" style="zoom:80%;" />	<img src="./Ejercicio2.assets/image-20240226215349496.png" alt="image-20240226215349496" style="zoom:80%;" />
 
 - Muestra alguna operación con redes Docker
 
@@ -59,8 +59,6 @@ por ejemplo:
 
 <img src="./Ejercicio2.assets/image-20240227181549184.png" alt="image-20240227181549184" style="zoom:80%;" />
 
-​	Creo un volumen: 
-
-​	<img src="./Ejercicio2.assets/image-20240227181818933.png" alt="image-20240227181818933" style="zoom:80%;" />
+​	Creo un volumen: 	<img src="./Ejercicio2.assets/image-20240227181818933.png" alt="image-20240227181818933" style="zoom:80%;" />
 
 <img src="./Ejercicio2.assets/image-20240227181840833.png" alt="image-20240227181840833" style="zoom:80%;" />
