@@ -6,3 +6,10 @@ Para la realización de este ejercicio es necesario tener una cuenta en Docker H
 
 Usuario: pelayoar79
 
+- Arranca un contenedor que ejecute una instancia de la imagen php:7.4-apache , que se llame web y que sea accesible desde un navegador en el puerto 8000.
+
+```bash
+docker run -d --name web -p 8000:80 php:7.4-apache
+```
+
+​	<img src="./Ejercicio5.assets/image-20240227205250616.png" alt="image-20240227205250616"  />
