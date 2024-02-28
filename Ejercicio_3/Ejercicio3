@@ -55,3 +55,13 @@ docker run -d \
 Comprobar que el contenedor Adminer puede conectar con el contenedor mysql abriendo un navegador web y accediendo a la URL: http://localhost:8080
 
 ![image-20240226094058579](./Ejercicio3.assets/image-20240226094058579.png)
+
+### Documentación
+
+Captura de pantalla y documento donde se vean los contenedores creados y en ejecución
+
+```bash
+docker ps
+```
+
+![image-20240226093323968](./Ejercicio3.assets/image-20240226093323968.png)
