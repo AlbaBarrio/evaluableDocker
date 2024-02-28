@@ -47,3 +47,11 @@ docker run -d \
 ```
 
 ![image-20240226092825309](./Ejercicio3.assets/image-20240226092825309.png)
+
+
+
+### Apartado 4
+
+Comprobar que el contenedor Adminer puede conectar con el contenedor mysql abriendo un navegador web y accediendo a la URL: http://localhost:8080
+
+![image-20240226094058579](./Ejercicio3.assets/image-20240226094058579.png)
