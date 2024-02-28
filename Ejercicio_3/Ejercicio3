@@ -31,3 +31,19 @@ docker run -d \
 ```
 
 ![image-20240226092147458](./Ejercicio3.assets/image-20240226092147458-1709113440644-3.png)
+
+
+
+### Apartado 3
+
+Crear un contenedor con Adminer que se pueda conectar al contenedor de la BD
+
+```bash
+docker run -d \
+  --name adminer-container \
+  --network redbd \
+  -p 8080:8080 \
+  adminer
+```
+
+![image-20240226092825309](./Ejercicio3.assets/image-20240226092825309.png)
