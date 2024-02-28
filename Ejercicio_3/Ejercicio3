@@ -89,3 +89,21 @@ SHOW DATABASES;
 ```
 
 ![image-20240226100424311](./Ejercicio3.assets/image-20240226100424311-1709113951265-10.png)
+
+
+
+Borrar los contenedores la red y los volúmenes utilizados
+
+```bash
+docker ps
+docker rm adminer-container
+docker rm mariadb-container
+docker network rm redbd
+docker volume prune
+```
+
+![image-20240226101227265](./Ejercicio3.assets/image-20240226101227265.png)
+
+![image-20240226101305093](./Ejercicio3.assets/image-20240226101305093.png)
+
+![image-20240226101424986](./Ejercicio3.assets/image-20240226101424986.png)
