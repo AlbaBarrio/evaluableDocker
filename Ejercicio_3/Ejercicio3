@@ -4,3 +4,12 @@
 
 [TOC] 
 
+### Apartado 1
+
+Crea una red bridge redbd
+
+```bash
+docker network create redbd
+```
+
+![image-20240226091430359](./Ejercicio3.assets/image-20240226091430359-1709113327196-1.png)
