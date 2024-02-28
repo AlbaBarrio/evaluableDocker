@@ -13,3 +13,21 @@ docker network create redbd
 ```
 
 ![image-20240226091430359](./Ejercicio3.assets/image-20240226091430359-1709113327196-1.png)
+
+
+
+### Apartado 2
+
+Crea un contenedor con una imagen de mariaDB que estará en la red redbd . Este contenedor se ejecutará en segundo plano, y será accesible a través del puerto 3306. (Es necesario definir la contraseña del usuario root y un volumen de datos persistente)
+
+```bash
+docker run -d \
+>   --name mariadb-container \
+>   --network redbd \
+>   -p 3306:3306 \
+>   -e MYSQL_ROOT_PASSWORD=1234 \
+>   -v /Documentos/evaluableDocker/ejercicio_3:/var/lib/mysql \
+>   mariadb
+```
+
+![image-20240226092147458](./Ejercicio3.assets/image-20240226092147458-1709113440644-3.png)
