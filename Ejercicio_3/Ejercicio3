@@ -77,3 +77,15 @@ Captura de pantalla y documento donde se vea el acceso a la BD a través de la i
 Captura de pantalla y documento donde se vea la creación de una BD con la interfaz web Adminer
 
 ![image-20240226100053639](./Ejercicio3.assets/image-20240226100053639.png)
+
+
+
+Captura de pantalla y documento donde se entre a la consola del servidor web en modo texto y se compruebe que se ha creado la BD
+
+```bash
+docker exec -it mariadb-container /bin/bash
+mariadb -u root -p
+SHOW DATABASES;
+```
+
+![image-20240226100424311](./Ejercicio3.assets/image-20240226100424311-1709113951265-10.png)
