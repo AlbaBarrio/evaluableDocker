@@ -101,3 +101,9 @@ docker build -t web .
 ```
 
 <img src="./Ejercicio5.assets/image-20240301095821557.png" alt="image-20240301095821557"  />
+
+```bash
+docker run -d --name web -p 8000:80 web
+```
+
+![image-20240301100038184](./Ejercicio5.assets/image-20240301100038184.png)
