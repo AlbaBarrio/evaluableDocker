@@ -50,3 +50,5 @@ Desplegar la aplicación **cmatrix** utilizando docker-compose.
    ![image-20240301093734151](./Ejercicio4.assets/image-20240301093734151.png)
 
 ![image-20240301093648863](./Ejercicio4.assets/image-20240301093648863.png)
+
+La aplicación cmatrix es una herramienta que simula la visualización de código como en la película "The Matrix". Cuando se ejecuta, muestra una  secuencia de caracteres aleatorios que parecen caer en cascada por la  pantalla, creando el efecto visual conocido como "Green Rain" o "Matrix  Rain".
