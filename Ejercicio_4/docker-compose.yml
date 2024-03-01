@@ -1,0 +1,20 @@
+version: '3.1'
+services:
+  app:
+    container_name: cmatrix
+    image: defnotgustavom/cmatrix
+    restart: always
+    environment:
+      LCB_DATABASE_URI: mongodb://mongo/cmatrix
+    ports:
+      - 80:8080
+    depends_on:
+      - db
+  db:
+   container_name: mongo
+   image: mongo:5.0
+   restart: always
+   volumes:
+     - ./mongo:/data/db
+
+

@@ -6,3 +6,10 @@
 
 Desplegar la aplicación **cmatrix** utilizando docker-compose.
 
+1. Descargamos la imagen de dockerHub
+
+   ```bash
+   docker pull defnotgustavom/cmatrix
+   ```
+
+   ![image-20240301085959368](./Ejercicio4.assets/image-20240301085959368.png)
