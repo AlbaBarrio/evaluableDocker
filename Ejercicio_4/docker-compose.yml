@@ -1,0 +1,6 @@
+version: '3'
+services:
+  cmatrix:
+    image: defnotgustavom/cmatrix
+    tty: true
+    restart: always
