@@ -1,7 +1,6 @@
-version: '3.1'
+version: '3'
 services:
   cmatrix:
-    container_name: cmatrix
     image: defnotgustavom/cmatrix
+    tty: true
     restart: always
-    tty = true

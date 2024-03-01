@@ -29,3 +29,14 @@ Desplegar la aplicación **cmatrix** utilizando docker-compose.
    ```
 
    ![image-20240301091843658](./Ejercicio4.assets/image-20240301091843658.png)
+
+3. Iniciamos el contenedor definido en el archivo `docker-compose.yml` y comprobamos
+
+   ```bash
+   docker-compose up -d
+   docker-compose ps
+   ```
+
+   ![image-20240301092702253](./Ejercicio4.assets/image-20240301092702253.png)
+
+![image-20240301092754020](./Ejercicio4.assets/image-20240301092754020.png)
