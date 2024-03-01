@@ -65,6 +65,8 @@ docker cp /home/cliente/Documentos/index.css web:/var/www/html/sitio_alba_y_pela
 
 ​	<img src="./Ejercicio5.assets/image-20240301091454566.png" alt="image-20240301091454566" style="zoom:80%;" />
 
+
+
 - Coloca en ese mismo directorio raíz un archivo llamado `mes.php` que muestre el nombre del mes actual. Ver la salida del script en el navegador
 
 ```bash
@@ -78,3 +80,12 @@ mes.php:
 <img src="./Ejercicio5.assets/image-20240301092114492.png" alt="image-20240301092114492" style="zoom:80%;" />
 
 <img src="./Ejercicio5.assets/image-20240301092405620.png" alt="image-20240301092405620" style="zoom:80%;" />
+
+- ​	Borrar el contenedor
+
+```bash
+docker stop web
+docker rm web
+```
+
+![image-20240301092824037](./Ejercicio5.assets/image-20240301092824037.png)
