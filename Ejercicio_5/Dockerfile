@@ -6,7 +6,7 @@ RUN mkdir /var/www/html/sitio_alba_y_pelayo
 
 # Copia los archivos del directorio actual al directorio del contenedor
 COPY index.html /var/www/html/sitio_alba_y_pelayo/ 
-COPY styles.css /var/www/html/sitio_alba_y_pelayo/ 
+COPY index.css /var/www/html/sitio_alba_y_pelayo/ 
 COPY mes.php /var/www/html/sitio_alba_y_pelayo/
 
 # Opcional: Exponer el puerto 8000 para acceder al servidor Apache
