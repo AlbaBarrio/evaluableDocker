@@ -40,3 +40,13 @@ Desplegar la aplicación **cmatrix** utilizando docker-compose.
    ![image-20240301092702253](./Ejercicio4.assets/image-20240301092702253.png)
 
 ![image-20240301092754020](./Ejercicio4.assets/image-20240301092754020.png)
+
+4. Ejecutamos la aplicación
+
+   ```bash
+   docker run --rm -it defnotgustavom/cmatrix cmatrix -C green
+   ```
+
+   ![image-20240301093734151](./Ejercicio4.assets/image-20240301093734151.png)
+
+![image-20240301093648863](./Ejercicio4.assets/image-20240301093648863.png)
