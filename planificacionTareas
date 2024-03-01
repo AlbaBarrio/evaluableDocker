@@ -1,0 +1,16 @@
+# Planificación de las tareas
+
+
+
+> **Jefa del proyecto**: Alba Barrio - **Colaborador del proyecto**: Pelayo Álvarez
+
+
+
+| Ejercicio                                           |         Contribuidor         | Fecha estimada | Fecha de finalización |      Porcentaje       |
+| :-------------------------------------------------- | :--------------------------: | :------------: | :-------------------: | :-------------------: |
+| Ejercicio 1: Servidor de base de datos              |        Pelayo Álvarez        |   23/02/2024   |      25/02/2024       |         100%          |
+| Ejercicio2: Portainer                               |        Pelayo Álvarez        |   26/02/2024   |      27/02/2024       |         100%          |
+| Ejercicio 3: Contenedores en red: Adminer y MariaDB |         Alba Barrio          |   23/02/2024   |      28/02/2024       |         100%          |
+| Ejercicio 4: Docker Compose                         |         Alba Barrio          |   26/02/2024   |      01/03/2024       |         100%          |
+| Ejercicio 5: Imagen con Dockerfile - Apliación Web  | Pelayo Álvarez y Alba Barrio |   28/02/2024   |      01/03/2024       | 90% Pelayo - 10% Alba |
+
