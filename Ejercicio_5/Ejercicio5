@@ -115,8 +115,15 @@ Comprobacion:
 - ​	Subir la imagen a la cuenta de Docker Hub
 
 ```bash
+docker login
 docker tag web pelayoar79/web
 docker push pelayoar79/web
 ```
 
-![image-20240301100619107](./Ejercicio5.assets/image-20240301100619107.png)
+![image-20240301101713673](./Ejercicio5.assets/image-20240301101713673.png)
+
+![image-20240301102013850](./Ejercicio5.assets/image-20240301102013850.png)
+
+<img src="./Ejercicio5.assets/image-20240301102040988.png" alt="image-20240301102040988" style="zoom:80%;" />
+
+<img src="./Ejercicio5.assets/image-20240301102113034.png" alt="image-20240301102113034" style="zoom:80%;" />
