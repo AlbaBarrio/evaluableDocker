@@ -111,3 +111,12 @@ docker run -d --name web -p 8000:80 web
 Comprobacion:
 
 ![image-20240301100158883](./Ejercicio5.assets/image-20240301100158883.png)
+
+- ​	Subir la imagen a la cuenta de Docker Hub
+
+```bash
+docker tag web pelayoar79/web
+docker push pelayoar79/web
+```
+
+![image-20240301100619107](./Ejercicio5.assets/image-20240301100619107.png)
