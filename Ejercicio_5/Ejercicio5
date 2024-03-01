@@ -90,3 +90,6 @@ docker rm web
 
 ![image-20240301092824037](./Ejercicio5.assets/image-20240301092824037.png)
 
+- ​	Automatizar estas operaciones creando un fichero `Dockerfile`
+
+![image-20240301095329339](./Ejercicio5.assets/image-20240301095329339.png)
