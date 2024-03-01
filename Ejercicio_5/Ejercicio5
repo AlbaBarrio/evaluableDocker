@@ -27,10 +27,11 @@ sudo mkdir -p /var/www/html/sitio_alba_y_pelayo
 ​	Acceder al repositorio:
 
 ```bash
-cd /var/www/html/sitio_alba_y_pelayo/
+docker exec web mkdir /var/www/html/sitio_alba_y_pelayo
+
 ```
 
-​	![image-20240227211324836](./Ejercicio5.assets/image-20240227211324836.png)
+​	![image-20240301090926043](./Ejercicio5.assets/image-20240301090926043.png)
 
 ​	Creacion de ficheros:
 
@@ -38,10 +39,24 @@ cd /var/www/html/sitio_alba_y_pelayo/
 sudo nano index.html
 ```
 
-![image-20240227211700784](./Ejercicio5.assets/image-20240227211700784.png)
+<img src="./Ejercicio5.assets/image-20240301085706155.png" alt="image-20240301085706155" style="zoom:80%;" />
 
 ```bash
 sudo nano index.css
 ```
 
-​	![image-20240227211844897](./Ejercicio5.assets/image-20240227211844897.png)
+​	<img src="./Ejercicio5.assets/image-20240301085744913.png" alt="image-20240301085744913" style="zoom:80%;" />
+
+```bash
+docker cp /home/cliente/Documentos/index.html web:/var/www/html/sitio_alba_y_pelayo/index.html
+```
+
+![image-20240301091009075](./Ejercicio5.assets/image-20240301091009075.png)
+
+```bash
+docker cp /home/cliente/Documentos/index.css web:/var/www/html/sitio_alba_y_pelayo/index.css
+```
+
+![image-20240301091031842](./Ejercicio5.assets/image-20240301091031842.png)
+
+​	<img src="./Ejercicio5.assets/image-20240301091454566.png" alt="image-20240301091454566" style="zoom:80%;" />
